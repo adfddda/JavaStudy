@@ -20,7 +20,7 @@ public class Main {
                 System.out.println(Thread.currentThread().getName() + " 正在处理文件：" + fileId);
             });
         }
-
+        System.out.println(1);
         // 关闭线程池
         pool.shutdown();
     }
