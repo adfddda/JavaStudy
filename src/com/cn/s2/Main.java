@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println(20);
         System.out.println(3);
-        System.out.println(120);
+
         // 关闭线程池
         pool.shutdown();
     }
