@@ -21,7 +21,7 @@ public class Main {
             });
         }
         System.out.println(1);
-        System.out.println(2);
+        System.out.println(3);
         // 关闭线程池
         pool.shutdown();
     }
